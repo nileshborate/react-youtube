@@ -11,7 +11,7 @@ const App = () => {
 
   const InputEvent = (e) => {
     setData((old) => {
-      console.log('old = ', old)
+      //console.log('old = ', old)
       return {
         ...old,
         [e.target.name]: e.target.value,
